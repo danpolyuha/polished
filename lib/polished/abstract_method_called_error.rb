@@ -1,2 +1,0 @@
-class AbstractMethodCalledError < StandardError
-end
