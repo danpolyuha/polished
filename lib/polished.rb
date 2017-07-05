@@ -1,5 +1,4 @@
 require "polished/version"
-require "polished/exceptions/abstract_method_called_error"
 require "polished/abstract"
 
 module Polished

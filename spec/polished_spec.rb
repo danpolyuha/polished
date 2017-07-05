@@ -23,7 +23,7 @@ RSpec.describe Polished do
     describe "implementation of abstract methods" do
       it "raises exception when an abstract method is called" do
         abstract_methods.each do |method|
-          expect{object.send(method)}.to raise_error(Polished::AbstractMethodCalledError)
+          expect{object.send(method)}.to raise_error(NotImplementedError)
         end
       end
     end
